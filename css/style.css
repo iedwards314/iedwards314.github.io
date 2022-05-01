@@ -425,6 +425,27 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.author-contact-info-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.author-contact-info {
+	color: #414a52;
+
+}
+
+.author-contact-info a:link {
+	color: #414a52;
+}
+
+.author-contact-info a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
 /* Footer Section*/
 #footer {
 	background: #343b42;
