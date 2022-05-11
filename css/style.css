@@ -206,6 +206,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	margin-bottom: 30px;
 	line-height: 21px;
 }
+
+/* Technology Skills Section */
+#section-technology{
+	padding: 120px 0;
+	background-color:rgb(84,208,221);
+
+}
+
+.technology-skills{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.technology-skill {
+	margin: 10px;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
