@@ -275,6 +275,7 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
+
 .portfolio-item {
 	margin: 15px 0;
 	-webkit-transition: all 0.5s ease-out;
@@ -341,6 +342,12 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+
+.project-links {
+	display: flex;
+	justify-content: space-around;
+}
+
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
