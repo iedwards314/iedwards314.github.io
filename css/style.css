@@ -348,6 +348,31 @@ ol.type li a:hover {
 	justify-content: space-around;
 }
 
+.project-description {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.project-technologies {
+	margin-top: 10px;
+	color: #fff;
+	display: grid;
+}
+
+.project-technologies ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.project-technologies li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	margin: 4px;
+}
+
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
